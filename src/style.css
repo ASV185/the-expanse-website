@@ -21,13 +21,24 @@ nav .nav-link {
   text-transform: uppercase;
 }
 
-.hero h1 {
+.hero h2 {
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
   font-size: 120px;
   font-family: "Oswald", sans-serif;
   text-align: left;
 }
 
-.hero h2 {
-  font-size: 50px;
+h2 {
+  font-size: 75px;
   font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 17px;
+  font-family: "Noto Sans Kawi", sans-serif;
 }
