@@ -4,9 +4,18 @@ nav .navbar-brand {
   font-size: 25px;
 }
 
+nav .navbar-brand:hover {
+  transform: scale(1.1);
+  text-shadow: 1px 2px 3px white;
+}
+
 nav .nav-link {
   font-family: "Oswald", sans-serif;
   font-size: 18px;
+}
+
+nav .nav-link:hover {
+  transform: scale(1.1);
 }
 
 .hero {
@@ -39,6 +48,6 @@ h2 {
 }
 
 p {
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Noto Sans Kawi", sans-serif;
 }
