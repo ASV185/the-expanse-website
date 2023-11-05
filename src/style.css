@@ -57,11 +57,25 @@ p {
   font-family: "Noto Sans Kawi", sans-serif;
 }
 
+.card {
+  margin: 100px;
+}
+
+.card-body p {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.card-body footer {
+  font-size: 40px;
+  font-weight: 400;
+}
+
 .cast-imgs img {
   border-radius: 10px;
 }
 
-.cast-section p {
+.character-section .cast-section p {
   border-left: 4px solid black;
 }
 
