@@ -90,6 +90,5 @@ p {
 }
 
 .cast-section h3:hover {
-  text-shadow: 1px 3px 3px white;
   transform: scale(1.25) translateY(-45px);
 }
