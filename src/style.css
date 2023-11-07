@@ -1,7 +1,7 @@
 nav .navbar-brand {
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
-  font-size: 25px;
+  font-size: 32px;
 }
 
 nav .navbar-brand:hover {
@@ -11,7 +11,7 @@ nav .navbar-brand:hover {
 
 nav .nav-link {
   font-family: "Oswald", sans-serif;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 nav .nav-link:hover {
