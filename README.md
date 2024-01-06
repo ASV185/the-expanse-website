@@ -1,4 +1,5 @@
 The Expanse Website
+* Sections for the cast turn dark as you hover them.
 ![the-expanse-website-pic-1](https://github.com/ASV185/the-expanse-website/assets/74805696/ce4ffda6-d957-456b-879d-b34731d14db6)
 ![the-expanse-website-pic-2](https://github.com/ASV185/the-expanse-website/assets/74805696/b803dad0-2177-44d4-9b7d-2f664f23fc61)
 ![the-expanse-website-pic 3](https://github.com/ASV185/the-expanse-website/assets/74805696/88de2673-33a3-4a46-bcce-b71964464e4b)
