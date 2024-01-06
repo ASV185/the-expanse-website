@@ -1,9 +1,9 @@
 The Expanse Website
 ![the-expanse-website-pic-1](https://github.com/ASV185/the-expanse-website/assets/74805696/ce4ffda6-d957-456b-879d-b34731d14db6)
 ![the-expanse-website-pic-2](https://github.com/ASV185/the-expanse-website/assets/74805696/b803dad0-2177-44d4-9b7d-2f664f23fc61)
-![the-expanse-website-pic 3](https://github.com/ASV185/the-expanse-website/assets/74805696/3074eb98-1e20-4108-bfa4-21e3900f475e)
+![the-expanse-website-pic 3](https://github.com/ASV185/the-expanse-website/assets/74805696/88de2673-33a3-4a46-bcce-b71964464e4b)
 ![the-expanse-website-pic-4](https://github.com/ASV185/the-expanse-website/assets/74805696/589a3576-05bb-48d6-adea-5caf6d829a04)
-![the-expanse-website-pic-5](https://github.com/ASV185/the-expanse-website/assets/74805696/3527fb52-a82c-46a3-a222-252d1eff3925)
+![the-expanse-website-pic-5](https://github.com/ASV185/the-expanse-website/assets/74805696/faaaab4c-3b0f-41f1-b5ea-8e804ca72672)
 ![the-expanse-website-pic-6](https://github.com/ASV185/the-expanse-website/assets/74805696/b8b7ede3-619c-4576-8f64-9b47c26cc5f6)
 ![the-expanse-website-pic-7](https://github.com/ASV185/the-expanse-website/assets/74805696/0f7a9775-f112-4d0c-9bbb-cd7a98485af2)
 ![the-expanse-website-pic-8](https://github.com/ASV185/the-expanse-website/assets/74805696/cb2c3333-81b7-4d31-8a36-4a33d4480a2e)
