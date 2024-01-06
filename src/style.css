@@ -115,3 +115,13 @@ p {
   aspect-ratio: 16/9;
   border-radius: 10px;
 }
+
+.about-me-section h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 37px;
+}
+
+.about-me-section p {
+  font-family: "Noto Sans Kawi", sans-serif;
+  font-size: 19px;
+}
