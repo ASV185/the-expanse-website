@@ -89,6 +89,10 @@ p {
   cursor: pointer;
 }
 
+.cast-imgs img:hover {
+  filter: grayscale(80%);
+}
+
 .cast-section h3:hover {
   transform: scale(1.25) translateY(-45px);
 }
