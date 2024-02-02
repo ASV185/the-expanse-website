@@ -127,6 +127,10 @@ p {
   width: 95%;
 }
 
+.main-groups-video-grid .video:hover {
+  transform: scale(1.09);
+}
+
 .video {
   max-width: 900px;
   margin: 0 auto;
