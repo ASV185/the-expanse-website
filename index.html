@@ -12,9 +12,161 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kawi&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/style.css" type="text/css">
     <title>The Expanse | Home</title>
 </head>
+<style>
+    nav .navbar-brand {
+        text-transform: uppercase;
+        font-family: "Oswald", sans-serif;
+        font-size: 32px;
+    }
+
+    nav .navbar-brand:hover {
+        transform: scale(1.1);
+        text-shadow: 1px 2px 3px white;
+    }
+
+    nav .nav-link {
+        font-family: "Oswald", sans-serif;
+        font-size: 23px;
+    }
+
+    nav .nav-link:hover {
+        transform: scale(1.1);
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+            url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/471/original/the-expanse3.jpg?1706936152);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 350px 0;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .hero h2 {
+        font-size: 55px;
+        font-family: "Oswald", sans-serif;
+    }
+
+    h1 {
+        font-size: 140px;
+        font-family: "Oswald", sans-serif;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 96px;
+        font-family: "Oswald", sans-serif;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: "Oswald", sans-serif;
+        font-size: 65px;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Noto Sans Kawi", sans-serif;
+    }
+
+    .card {
+        margin: 100px;
+    }
+
+    .card-body p {
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .card-body footer {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .cast-imgs img {
+        border-radius: 10px;
+    }
+
+    .character-section .cast-section p {
+        border-left: 4px solid black;
+    }
+
+    .cast-section p:hover {
+        border-left: 4px solid white;
+    }
+
+    .character-section {
+        width: 90%;
+        transition: width 3s ease-out 0.4s;
+    }
+
+    .character-section:hover {
+        background-color: rgb(14, 13, 13);
+        color: white;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .cast-imgs img:hover {
+        filter: grayscale(80%);
+    }
+
+    .video-section .trailer-section {
+        background-color: rgb(54, 54, 54);
+        color: white;
+    }
+
+    .video-section .trailer-section:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    .video-section small {
+        display: block;
+        text-align: center;
+        font-family: "Noto Sans Kawi", sans-serif;
+        font-size: 20px;
+        opacity: 50%;
+    }
+
+    .main-groups-video-grid {
+        background-color: rgb(14, 13, 13);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+
+    .main-groups-video-grid .video:hover {
+        transform: scale(1.09);
+    }
+
+    .video {
+        max-width: 900px;
+        margin: 0 auto;
+        width: 100%;
+        aspect-ratio: 16/9;
+        border-radius: 10px;
+    }
+
+    .about-me-section h4 {
+        font-family: "Oswald", sans-serif;
+        font-size: 37px;
+    }
+
+    .about-me-section p {
+        font-family: "Noto Sans Kawi", sans-serif;
+        font-size: 19px;
+    }
+</style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong position-absolute">
@@ -55,8 +207,8 @@
             <h2 class="text-center p-5">The Story</h2>
             <div class="row">
                 <div class="col-6 mb-3">
-                    <img src="images/the-expanse7.jpg" alt="the solar system"
-                        class="the-solar-system img-fluid rounded">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/476/original/the-expanse7.jpg?1706936235"
+                        alt="the solar system" class="the-solar-system img-fluid rounded">
                 </div>
                 <div class="col-6 d-flex align-items-start p-3">
                     <p>
@@ -79,7 +231,8 @@
         <header>
             <h2 class="p-5">Cast</h2>
             <div class="col-12">
-                <img src="images/the-expanse4.jpg" alt="cast picture" class="img-fluid rounded m-4">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/472/original/the-expanse4.jpg?1706936177"
+                    alt="cast picture" class="img-fluid rounded m-4">
             </div>
         </header>
         <section>
@@ -101,7 +254,8 @@
         <section>
             <div class="row p-5 shadow p-3 mb-5 rounded character-section">
                 <div class="col-5 cast-imgs">
-                    <img src="images/holden-pic.jpg" alt="Holden actor" class="img-fluid p-5">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/473/original/holden-pic.jpg?1706936202"
+                        alt="Holden actor" class="img-fluid p-5">
                 </div>
                 <div class="col-5 cast-section d-flex align-items-start pt-5 mt-3">
                     <h3 class="p-4">James Holden</h3>
@@ -160,7 +314,8 @@
             </div>
             <div class="row p-5 shadow p-3 mb-5 rounded character-section">
                 <div class="col-6 cast-imgs">
-                    <img src="images/chrisjen-pic.jpg" alt="Chrisjen actor" class="img-fluid p-5">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/474/original/chrisjen-pic.jpg?1706936211"
+                        alt="Chrisjen actor" class="img-fluid p-5">
                 </div>
                 <div class="col-6 cast-section d-flex align-items-center">
                     <h3 class="p-4">Chrisjen Avasarala</h3>
@@ -215,7 +370,8 @@
                     </p>
                 </div>
                 <div class="col-6 cast-imgs rounded">
-                    <img src="images/roberta-pic.jpg" alt="Roberta actor" class="img-fluid p-5">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/475/original/roberta-pic.jpg?1706936220"
+                        alt="Roberta actor" class="img-fluid p-5">
                 </div>
             </div>
         </section>
@@ -268,7 +424,8 @@
         <div class="container mt-3 ms-3 border-start border border-black border border-2 rounded">
             <div class="row">
                 <div class="col-4 p-5">
-                    <img src="images/self-image.jpg" alt="Self Image" class="img-fluid rounded ">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/477/original/self-image.jpg?1706936847"
+                        alt="Self Image" class="img-fluid rounded ">
                 </div>
                 <div class="col-4 align-self-center p-2">
                     <h4 class="text-left p-3">About Me</h4>
